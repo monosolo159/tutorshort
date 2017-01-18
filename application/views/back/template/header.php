@@ -1,10 +1,3 @@
-<?php if (!isset($_SESSION['ADMIN_USERNAME'])) {
-			redirect('/Admin');
-		} else { $MEMBER_ID = $_SESSION['ADMIN_USERNAME']; ?>
-			<script>
-				var MEMBER_ID = "<?php echo $MEMBER_ID ?>";
-			</script>
-<?php } ?>
 <!doctype html>
 <html class="no-js" lang="">
 <head>
@@ -21,9 +14,18 @@
 <link rel="stylesheet" type="text/css" href="<?php echo base_url('assets/template/back/css/vendor/morphingsearch.css') ?>" />
 <!-- project main css files -->
 <link rel="stylesheet" href="<?php echo base_url('assets/template/back/css/main.css') ?>" />
+<link rel="stylesheet" href="<?php echo base_url('assets/template/back/css/font-awesome.min.css') ?>" />
+<link href='http://fonts.googleapis.com/css?family=Roboto' rel='stylesheet' type='text/css'>
+
 <!--/ stylesheets -->
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" /></head>
-
+<?php if (!isset($_SESSION['ADMIN_USERNAME'])) {
+			redirect('/Admin');
+		} else { $MEMBER_ID = $_SESSION['ADMIN_USERNAME']; ?>
+			<script>
+				var MEMBER_ID = "<?php echo $MEMBER_ID ?>";
+			</script>
+<?php } ?>
 <script type="text/javascript">
 	var SITE_URL = "<?php echo site_url(); ?>";
 </script>
