@@ -23,7 +23,7 @@
                 <h4>Sign in</h4>
                 <div class="social-line"> <a href="#" class="btn btn-just-icon"><i class="fa fa-facebook-square"></i></a> <a href="#" class="btn btn-just-icon"><i class="fa fa-twitter"></i></a> <a href="#" class="btn btn-just-icon"><i class="fa fa-google-plus"></i></a> </div>
               </div>
-              <h3 class="mt-0">Oakleaf</h3>
+              <h3 class="mt-0">TUTOR SHOT</h3>
               <p class="help-block">Or Be Classical</p>
               <div class="content">
                 <div class="form-group">
