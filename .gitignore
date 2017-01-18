@@ -47,3 +47,4 @@ Temporary Items
 .apdisk
 application/views/back/login.php
 application/config/database.php
+application/config/database.php
