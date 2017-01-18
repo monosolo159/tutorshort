@@ -12,23 +12,22 @@ class Admin extends CI_Controller {
   public function index() {
     $this->load->view('back/login');
   }
-  // public function AuthenAdmin()
-  // {
-  //   $input = $this->input->post();
-  //   $input['admin_password'] = base64_encode($input['admin_password']);
-  //   // $this->debuger->prevalue($input);
-  //
-  //   $Admin = $this->HomePageModel->AuthenAdmin($input);
-  //
-  //   if (count($Admin)>0) {
-  //     $_SESSION['ADMIN_ID'] = $Admin[0]['admin_id'];
-  //     redirect('/DashBoardMain');
-  //   } else {
-  //     redirect('/Admin');
-  //   }
-  // }
-  // public function Logout() {
-  //   session_destroy();
-  //   redirect('/Admin');
-  // }
+  public function Authen()
+  {
+    $input = $this->input->post();
+    $input['admin_password'] = md5($input['admin_password']);
+    // $this->debuger->prevalue($input);
+
+    $Admin = $this->AdminModel->Authen($input);
+    if (count($Admin)>0) {
+      $_SESSION['ADMIN_USERNAME'] = $Admin[0]['admin_username'];
+      redirect('/WelcomeService');
+    } else {
+      redirect('/Admin');
+    }
+  }
+  public function Logout() {
+    session_destroy();
+    redirect('/Admin');
+  }
 }
