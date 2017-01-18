@@ -16,12 +16,13 @@ class Admin extends CI_Controller {
   {
     $input = $this->input->post();
     $input['admin_password'] = md5($input['admin_password']);
-    // $this->debuger->prevalue($input);
 
     $Admin = $this->AdminModel->Authen($input);
 
     if (count($Admin)>0) {
+
       $_SESSION['ADMIN_USERNAME'] = $Admin[0]['admin_username'];
+    
       redirect('/DashBoardMain');
     } else {
       redirect('/Admin');
