@@ -4,7 +4,7 @@
 <meta charset="utf-8" />
 <link rel="shortcut icon" href="<?php echo base_url('assets/template/back/images/favicon.ico') ?>" type="image/x-icon" />
 <link rel="icon" href="<?php echo base_url('assets/template/back/images/favicon.ico') ?>" type="image/x-icon" />
-<title>:: Oakleaf - Admin ::</title>
+<title>:: TUTOR SHORT - Admin ::</title>
 <meta content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" name="viewport" />
 
 <!-- CSS Files -->
@@ -23,7 +23,7 @@
                 <h4>Sign in</h4>
                 <!-- <div class="social-line"> <a href="#" class="btn btn-just-icon"><i class="fa fa-facebook-square"></i></a> <a href="#" class="btn btn-just-icon"><i class="fa fa-twitter"></i></a> <a href="#" class="btn btn-just-icon"><i class="fa fa-google-plus"></i></a> </div> -->
               </div>
-              <h3 class="mt-0">TUTOR SHOT</h3>
+              <h3 class="mt-0">TUTOR SHORT</h3>
               <p class="help-block">Or Be Classical</p>
               <div class="content">
                 <div class="form-group">
