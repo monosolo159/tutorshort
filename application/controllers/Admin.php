@@ -9,9 +9,14 @@ class Admin extends CI_Controller {
     }
   }
 
-  public function index() {
-    $this->load->view('back/login');
-  }
+  // public function index() {
+  //   if(isset($_SESSION['ADMIN_USERNAME'])){
+  //     // redirect('/DashBoardMain');
+  //   }else{
+  //     $this->load->view('back/login');
+  //   }
+  //
+  // }
   public function Authen()
   {
     $input = $this->input->post();
@@ -22,7 +27,7 @@ class Admin extends CI_Controller {
     if (count($Admin)>0) {
 
       $_SESSION['ADMIN_USERNAME'] = $Admin[0]['admin_username'];
-    
+
       redirect('/DashBoardMain');
     } else {
       redirect('/Admin');

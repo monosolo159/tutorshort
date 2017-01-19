@@ -6,7 +6,7 @@ class AdminModel extends CI_Model {
   {
     $query = $this->db
     ->get_where('admin', $data)
-    ->result_array();  
+    ->result_array();
     return $query;
   }
 }

@@ -1,5 +1,6 @@
 <!doctype html>
-<html class="no-js" lang="">
+<html class="no-js" lang="" ng-app="App">
+<!-- <html class="no-js" lang=""> -->
 <head>
 <meta charset="utf-8" />
 <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
@@ -19,13 +20,7 @@
 
 <!--/ stylesheets -->
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" /></head>
-<?php if (!isset($_SESSION['ADMIN_USERNAME'])) {
-			redirect('/Admin');
-		} else { $MEMBER_ID = $_SESSION['ADMIN_USERNAME']; ?>
-			<script>
-				var MEMBER_ID = "<?php echo $MEMBER_ID ?>";
-			</script>
-<?php } ?>
+
 <script type="text/javascript">
 	var SITE_URL = "<?php echo site_url(); ?>";
 </script>

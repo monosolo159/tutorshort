@@ -1,5 +1,5 @@
     <!-- CONTENT -->
-    <section id="content" ng-app="AppProvince">
+    <section id="content">
         <div class="page dashboard-page">
 
             <!-- bradcome -->
@@ -16,25 +16,8 @@
                         <div class="boxs-header dvd dvd-btm">
                             <h1 class="custom-font">Title</h1>
                         </div>
-                        <div class="boxs-body" ng-controller="CtrlProvince">
-                          <select class="" name="" >
-                            <option ng-repeat="row in allProvince" value="{{row.prov_id}}">{{row.prov_name}}</option>
-                          </select>
+                        <div class="boxs-body" ng-controller="">
 
-                            <table>
-                              <thead>
-                                <tr>
-                                  <td>prov_id</td>
-                                  <td>prov_name</td>
-                                </tr>
-                              </thead>
-                              <tbody>
-                                <!-- <tr ng-repeat="row in allProvince">
-                                  <td>{{row.prov_id}}</td>
-                                  <td>{{row.prov_name}}</td>
-                                </tr> -->
-                              </tbody>
-                            </table>
                         </div>
                     </section>
                 </div>

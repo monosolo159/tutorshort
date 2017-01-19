@@ -110,7 +110,8 @@ $autoload['language'] = array();
 */
 
 $autoload['model'] = array('WelcomeModel',
-'AdminModel');
+'AdminModel',
+'MemberModel');
 
 
 /* End of file autoload.php */
