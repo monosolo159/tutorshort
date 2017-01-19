@@ -10,7 +10,7 @@ App.controller('CtrlProvince', function ($scope, $http) {
 
 App.controller('CtrlMember', function ($scope, $http) {
 	$http.get(SITE_URL + '/MemberService/GetMember').then(function (response){
-          // console.log(response.data);
+          console.log(response.data);
           $scope.allMember = response.data;
      },function (error){
      });

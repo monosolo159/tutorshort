@@ -1,5 +1,5 @@
     <!-- CONTENT -->
-    <section id="content">
+    <section id="content" ng-controller="CtrlMember">
         <div class="page dashboard-page">
 
             <!-- bradcome -->
@@ -17,7 +17,7 @@
                             <h1 class="custom-font">Title</h1>
                         </div>
                         <!-- <div class="boxs-body"> -->
-                        <div class="boxs-body" ng-controller="CtrlMember">
+                        <div class="boxs-body" >
                           <table class="table table-striped table-hover">
                             <thead>
                               <tr>
