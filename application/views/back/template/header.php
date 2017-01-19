@@ -1,4 +1,5 @@
-<!doctype html>
+<!DOCTYPE html>
+
 <html class="no-js" lang="" ng-app="App">
 <!-- <html class="no-js" lang=""> -->
 <head>

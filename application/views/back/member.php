@@ -14,6 +14,7 @@
                 <div class="col-md-12 col-xs-12">
                     <section class="boxs">
                         <div class="boxs-header dvd dvd-btm">
+
                             <h1 class="custom-font">Title</h1>
                         </div>
                         <!-- <div class="boxs-body"> -->

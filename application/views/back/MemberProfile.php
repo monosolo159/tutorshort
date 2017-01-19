@@ -1,5 +1,8 @@
+<script type="text/javascript">
+  var member_id = <?php echo $this->uri->segment(3); ?>
+</script>
 <!-- CONTENT -->
-<section id="content">
+<section id="content" ng-controller="CtrlMemberProfile">
     <div class="page dashboard-page">
 
         <!-- bradcome -->
@@ -14,9 +17,9 @@
             <div class="col-md-12 col-xs-12">
                 <section class="boxs">
                     <div class="boxs-header dvd dvd-btm">
-                        <h1 class="custom-font">Title</h1>
+                        <h1 class="custom-font">{{memberProfile.member_firstname}}</h1>
                     </div>
-                    <div class="boxs-body" ng-controller="CtrlMemberProfile">
+                    <div class="boxs-body" >
                       <table class="table table-striped table-hover">
                         <thead>
                           <tr>

@@ -17,10 +17,13 @@ class MemberService extends REST_Controller{
 			$GetMember = $this->MemberModel->GetMember();
 			$this->response($GetMember);
 		}
-		function GetMemberProfile_get()
+		function GetMemberProfile_post()
 		{
-			$id = $this->uri->segment(3);
+			$id = $this->post('id');
+			// echo $id;
 			$GetMemberProfile = $this->MemberModel->GetMemberProfile($id);
+			// print_r($GetMemberProfile);
+
 			$this->response($GetMemberProfile);
 		}
 	}
