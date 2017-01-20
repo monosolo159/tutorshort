@@ -26,4 +26,10 @@ class MemberService extends REST_Controller{
 
 			$this->response($GetMemberProfile);
 		}
+		public function MemberNew_post()
+		{
+			$input =  $this->post();
+			print_r($input);
+			$this->db->insert('admin', $input);
+		}
 	}

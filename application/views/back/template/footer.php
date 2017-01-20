@@ -7,7 +7,7 @@
 
 <script src="<?php echo base_url('/assets/template/back/js/vendor/d3/d3.layout.min.js') ?>"></script>
 
-<script src="<?php echo base_url('/assets/template/back/js/vendor/rickshaw/rickshaw.min.js') ?>"></script>
+<!-- <script src="<?php echo base_url('/assets/template/back/js/vendor/rickshaw/rickshaw.min.js') ?>"></script> -->
 
 <script src="<?php echo base_url('/assets/template/back/bundles/flotscripts.bundle.js') ?>"></script>
 
@@ -31,7 +31,7 @@
 
 <script src="<?php echo base_url('/assets/template/back/js/main.js') ?>"></script>
 <!-- page Js -->
-<script src="<?php echo base_url('/assets/template/back/js/page/index.js'); ?>"></script>
+<!-- <script src="<?php echo base_url('/assets/template/back/js/page/index.js'); ?>"></script> -->
 <!-- page Js -->
 
 <!-- angular -->

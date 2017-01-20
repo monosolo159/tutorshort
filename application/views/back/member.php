@@ -19,6 +19,8 @@
                         </div>
                         <!-- <div class="boxs-body"> -->
                         <div class="boxs-body" >
+                            <a class="btn btn-raised btn-primary" href="<?php echo site_url('/Member/MemberForm'); ?>">เพิ่ม</a>
+
                           <table class="table table-striped table-hover">
                             <thead>
                               <tr>

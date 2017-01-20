@@ -144,16 +144,16 @@
                     </a>
                     <div class="dropdown-menu pull-right with-arrow panel panel-default" role="menu">
                         <ul class="list-group">
-                            <li class="list-group-item"> <a role="button" tabindex="0" class="media"> <span class="pull-left media-object thumb thumb-sm"> <img src="./assets/images/pi-avatar.jpg" alt="" class="" /> </span>
+                            <li class="list-group-item"> <a role="button" tabindex="0" class="media"> <span class="pull-left media-object thumb thumb-sm"> <img src="<?php echo base_url('assets/template/back/images/pi-avatar.jpg')?>" alt="" class="" /> </span>
                                 <div class="media-body"> <span class="block">Lucas sent you a message</span> <small class="text-muted">9 minutes ago</small> </div>
                                 </a> </li>
-                            <li class="list-group-item"> <a role="button" tabindex="0" class="media"> <span class="pull-left media-object  thumb thumb-sm"> <img src="./assets/images/Jane-avatar.jpg" alt="" class="" /> </span>
+                            <li class="list-group-item"> <a role="button" tabindex="0" class="media"> <span class="pull-left media-object  thumb thumb-sm"> <img src="<?php echo base_url('assets/template/back/images/Jane-avatar.jpg')?>" alt="" class="" /> </span>
                                 <div class="media-body"> <span class="block">Jane sent you a message</span> <small class="text-muted">27 minutes ago</small> </div>
                                 </a> </li>
-                            <li class="list-group-item"> <a role="button" tabindex="0" class="media"> <span class="pull-left media-object  thumb thumb-sm"> <img src="./assets/images/random-avatar1.jpg" alt="" class="" /> </span>
+                            <li class="list-group-item"> <a role="button" tabindex="0" class="media"> <span class="pull-left media-object  thumb thumb-sm"> <img src="<?php echo base_url('assets/template/back/images/random-avatar1.jpg')?>" alt="" class="" /> </span>
                                 <div class="media-body"> <span class="block">Lee sent you a message</span> <small class="text-muted">2 hour ago</small> </div>
                                 </a> </li>
-                            <li class="list-group-item"> <a role="button" tabindex="0" class="media"> <span class="pull-left media-object  thumb thumb-sm"> <img src="./assets/images/random-avatar3.jpg" alt="" class="" /> </span>
+                            <li class="list-group-item"> <a role="button" tabindex="0" class="media"> <span class="pull-left media-object  thumb thumb-sm"> <img src="<?php echo base_url('assets/template/back/images/random-avatar3.jpg')?>" alt="" class="" /> </span>
                                 <div class="media-body"> <span class="block">Rihtik sent you a message</span> <small class="text-muted">8 hours ago</small> </div>
                                 </a> </li>
                         </ul>
