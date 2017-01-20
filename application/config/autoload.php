@@ -109,9 +109,9 @@ $autoload['language'] = array();
 |
 */
 
-$autoload['model'] = array('WelcomeModel',
-'AdminModel',
-'MemberModel');
+$autoload['model'] = array('welcome_model',
+'admin_model',
+'member_model');
 
 
 /* End of file autoload.php */

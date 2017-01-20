@@ -14,28 +14,86 @@
             </div>
         </div>
         <div class="row">
-            <div class="col-md-12 col-xs-12">
+            <div class="col-md-6 col-xs-6">
                 <section class="boxs">
                     <div class="boxs-header dvd dvd-btm">
-                        <h1 class="custom-font">{{memberProfile.member_firstname}}</h1>
+                        <h1 class="custom-font">Profile</h1>
                     </div>
                     <div class="boxs-body" >
-                      <table class="table table-striped table-hover">
-                        <thead>
-                          <tr>
-                            <th>member_id</th>
-                            <th>member_firstname</th>
-                            <th>member_lastname</th>
-                          </tr>
-                        </thead>
-                        <tbody>
-                          <tr ng-repeat="row in memberProfile">
-                            <td>{{row.member_id}}</td>
-                            <td>{{row.member_firstname}}</td>
-                            <td>{{row.member_lastname}}</td>
-                          </tr>
-                        </tbody>
-                      </table>
+                        <table class="table table-striped table-hover">
+                          <tbody ng-repeat="row in memberProfile">
+                            <tr>
+                              <td style="text-align: right" width = "30%">ID : </td>
+                              <td>{{row.member_id}}</td>
+                            </tr>
+                            <tr>
+                              <td style="text-align: right">Name : </td>
+                              <td>{{row.member_prefix}}{{row.member_firstname}} {{row.member_lastname}}</td>
+                            </tr>
+                            <tr>
+                              <td style="text-align: right">Sex : </td>
+                              <td>{{row.member_sex}}</td>
+                            </tr>
+                            <tr>
+                              <td style="text-align: right">Address : </td>
+                              <td>{{row.member_address}}</td>
+                            </tr>
+                            <tr>
+                              <td style="text-align: right">Alley : </td>
+                              <td>{{row.member_alley}}</td>
+                            </tr>
+                            <tr>
+                              <td style="text-align: right">Street : </td>
+                              <td>{{row.member_street}}</td>
+                            </tr>
+                            <tr>
+                              <td style="text-align: right">Sub District : </td>
+                              <td>{{row.subdistrict_name}}</td>
+                            </tr>
+                            <tr>
+                              <td style="text-align: right">District : </td>
+                              <td>{{row.district_name}}</td>
+                            </tr>
+                            <tr>
+                              <td style="text-align: right">Province : </td>
+                              <td>{{row.province_name}}</td>
+                            </tr>
+                            <tr>
+                              <td style="text-align: right">Zipcode : </td>
+                              <td>{{row.zipcode}}</td>
+                            </tr>
+                            <tr>
+                              <td style="text-align: right">Tel : </td>
+                              <td>{{row.member_tel}}</td>
+                            </tr>
+                            <tr>
+                              <td style="text-align: right">Email : </td>
+                              <td>{{row.member_email}}</td>
+                            </tr>
+                            <tr>
+                              <td style="text-align: right">Type : </td>
+                              <td>{{row.member_type_name}}</td>
+                            </tr>
+                          </tbody>
+                        </table>
+                    </div>
+                </section>
+            </div>
+            <div class="col-md-6 col-xs-6">
+                <section class="boxs">
+                    <div class="boxs-header dvd dvd-btm">
+                        <h1 class="custom-font">Course Name : zzz</h1>
+                    </div>
+                    <div class="boxs-body" >
+                        <table class="table table-striped table-hover">
+                          <tbody ng-repeat="row in memberProfile">
+                            <tr>
+                              <td style="text-align: right" width = "30%">ID : </td>
+                              <td></td>
+                            </tr>
+
+                          </tbody>
+                        </table>
                     </div>
                 </section>
             </div>

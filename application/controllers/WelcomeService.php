@@ -32,12 +32,12 @@ class WelcomeService extends REST_Controller{
 
   function GetAll_get()
 	{
-		$GetAll = $this->WelcomeModel->GetAll();
+		$GetAll = $this->welcome_model->GetAll();
 		$this->response($GetAll);
 	}
 	function GetProvince_get()
 	{
-		$GetAll = $this->WelcomeModel->GetAll();
+		$GetAll = $this->welcome_model->GetAll();
 		$this->response($GetAll);
 	}
 }

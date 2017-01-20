@@ -14,14 +14,14 @@ class MemberService extends REST_Controller{
 
 		function GetMember_get()
 		{
-			$GetMember = $this->MemberModel->GetMember();
+			$GetMember = $this->member_model->GetMember();
 			$this->response($GetMember);
 		}
 		function GetMemberProfile_post()
 		{
 			$id = $this->post('id');
 			// echo $id;
-			$GetMemberProfile = $this->MemberModel->GetMemberProfile($id);
+			$GetMemberProfile = $this->member_model->GetMemberProfile($id);
 			// print_r($GetMemberProfile);
 
 			$this->response($GetMemberProfile);

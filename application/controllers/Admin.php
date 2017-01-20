@@ -22,7 +22,7 @@ class Admin extends CI_Controller {
     $input = $this->input->post();
     $input['admin_password'] = md5($input['admin_password']);
 
-    $Admin = $this->AdminModel->Authen($input);
+    $Admin = $this->admin_model->Authen($input);
 
     if (count($Admin)>0) {
 

@@ -12,7 +12,7 @@ class Welcome extends CI_Controller {
 		$this->load->helper('url');
 		//$this->load->view('welcome_message');
 		$this->load->view('back/template/header');
-		$this->load->view('back/DashBoardMain');
+		$this->load->view('back/DashboardMain');
 		$this->load->view('back/template/footer');
 	}
 }
